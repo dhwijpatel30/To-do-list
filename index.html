@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="main-container">
+        <h1>📝 To-Do List</h1>
+        <div class="container">
+            <input type="text" placeholder="Enter your task" id="inputTask" class="input-task">
+            <button id="addBtn" class="add-btn">Add</button>
+        </div>
+
+        <!-- <div class="container">
+            <input type="text" placeholder="Search" id="input" class="input-task">
+            <button id="btn1" class="add-btn">Search</button>
+        </div> -->
+        <div class="sec-container">
+
+            <div class="search-container">
+                <input type="text" id="searchInput" class="search-input" placeholder="Search task...">
+            </div>
+
+            <ul id="taskList" class="task-list"></ul>
+            <button id="clearAll" class="clear-btn">Clear All</button>
+
+        </div>
+    </div>
+
+    <div class="theme-wrapper">
+        <button id="themeBtn">Dark Mode</button>
+    </div>
+
+
+    <div class="trash-container">
+
+        <h2 class="trash-heading">
+            🗑 Trash Tasks
+        </h2>
+
+        <ul id="trashList" class="trash-list">
+
+            <!-- Example Item -->
+
+            <!--
+        <li class="trash-item">
+
+            <span class="trash-task-text">
+                Learn JavaScript
+            </span>
+
+            <button class="restore-btn">
+                Restore
+            </button>
+
+        </li>
+        -->
+
+        </ul>
+
+    </div>
+
+
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>
